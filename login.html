@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar sesion</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="login.js" defer></script>
+</head>
+
+
+<body>
+
+  <div class="contenedor-login">
+    <div class="tarjeta-login">
+      <h1>Iniciar sesion</h1>
+      <p>Ingresa tus datos para acceder</p>
+
+      <form id="formLogin" action= /login method="POST">
+
+        <div class="grupo-campo">
+          <label for="correo">Correo Electronico</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+
+        <div class="grupo-campo">
+          <label for="password">Contraseña</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+
+        <button type="submit">Iniciar Sesion</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
